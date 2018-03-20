@@ -1,6 +1,6 @@
 @import 'normalize.css/normalize.css';
-@import './lib/normalize.css';
-/* @import './lib/bootstrap.css'; */
+@import './lib/owl.carousel.min.css';
+@import './lib/owl.theme.default.min.css';
 @import './fonts.css';
 @import './header.css';
 @import './media.css';

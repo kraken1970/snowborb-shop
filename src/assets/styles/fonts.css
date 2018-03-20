@@ -1,56 +1,28 @@
 /* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
 @font-face {
-  font-family: 'PFCentroSlabProBold';
-  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'PFCentroSlabProMedium';
-  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/Proxima/ProximaNovaRegular/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Proxima/ProximaNovaRegular/ProximaNova-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Proxima/ProximaNovaRegular/ProximaNova-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
        font-weight: normal;
        font-style: normal;
 }
 
 @font-face {
-  font-family: 'RalewayBold';
-  src: url('../fonts/RalewayBold/RalewayBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RalewayBold/RalewayBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewayBold/RalewayBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
+  font-family: 'ProximaNovaSemiBold';
+  src: url('../fonts/Proxima/ProximaNovaSemiBold/ProximaNova-Semibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Proxima/ProximaNovaSemiBold/ProximaNova-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Proxima/ProximaNovaSemiBold/ProximaNova-Semibold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 600;
        font-style: normal;
 }
 
 @font-face {
-  font-family: 'RalewayRegular';
-  src: url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot'), /* IE9 Compat Modes */
-       url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewayRegular/RalewayRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: normal;
+  font-family: 'ProximaNovaExtraBold';
+  src: url('../fonts/Proxima/ProximaNovaExtraBold/ProximaNova-Extrabld.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Proxima/ProximaNovaExtraBold/ProximaNova-Extrabld.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fontsProxima/ProximaNovaExtraBold/ProximaNova-Extrabld.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 800;
        font-style: normal;
 }
-
-@font-face {
-  font-family: 'RalewaySemiBold';
-  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewaySemiBold/RalewaySemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'RobotoBold';
-  src: url('../fonts/RobotoBold/RobotoBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RobotoBold/RobotoBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RobotoBold/RobotoBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
-}
-
 
