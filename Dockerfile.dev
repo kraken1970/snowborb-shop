@@ -1,0 +1,14 @@
+FROM node:7.2.0-alpine
+
+ENV PATH /root/.yarn/bin:$PATH
+
+ADD . /app
+WORKDIR /app
+
+COPY package.json /app
+
+RUN apk --no-cache add curl bash binutils tar \
+  && /bin/bash \
+  && touch ~/.bashrc \
+  && curl -o- -L https://yarnpkg.com/install.sh | bash \
+  && yarn install

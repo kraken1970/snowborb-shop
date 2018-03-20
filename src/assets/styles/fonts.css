@@ -1,0 +1,56 @@
+/* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
+@font-face {
+  font-family: 'PFCentroSlabProBold';
+  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFCentroSlabProMedium';
+  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewayBold';
+  src: url('../fonts/RalewayBold/RalewayBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/RalewayBold/RalewayBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/RalewayBold/RalewayBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot'), /* IE9 Compat Modes */
+       url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/RalewayRegular/RalewayRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/RalewaySemiBold/RalewaySemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/RobotoBold/RobotoBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/RobotoBold/RobotoBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/RobotoBold/RobotoBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: normal;
+}
+
+

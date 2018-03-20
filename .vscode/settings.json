@@ -1,0 +1,20 @@
+{
+  "eslint.enable": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "node_modules": false,
+    "dist": false,
+    "**/style.css": false,
+    "**/.gitignore": false,
+    "**/docker-compose.yml": false,
+    "**/package.json": false,
+    "**/yarn.lock": false,
+    "**/gulpfile.js": false,
+    "Dockerfile.dev": false,
+    "**/.vscode": false
+  }
+}

@@ -1,0 +1,32 @@
+$main-color: #f39f18;
+$headers-color: #2c3949;
+
+body {
+  font-size: 15px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.375em;
+  font-family: 'RalewayRegular', sans-serif;
+  color: #333333;
+  overflow-x: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+a, a:hover, a:focus, a:active {
+  color: $main-color;
+  text-decoration: underline;
+}
+
+.headers {
+  font-family: 'PFCentroSlabProMedium', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $headers-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
