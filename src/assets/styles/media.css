@@ -1,6 +1,8 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
+	.main-footer__content {
+		width: 974px;
+	}
 }
 	
 /* Medium Devices, Desktops */
