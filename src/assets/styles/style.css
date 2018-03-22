@@ -450,7 +450,7 @@ template {
        font-style: normal;
 }
 
-html {
+html, body {
   width: -webkit-calc(100% + -webkit-calc(100vw - 100%));
   width: calc(100% + calc(100vw - 100%));
   overflow-x: hidden;
@@ -502,7 +502,7 @@ img {
 
 body {
   font-family: 'ProximaNovaSemiBold', sans-serif;
-  width: 100vw;
+  /* width: 100vw; */
   /* max-width: 100%; */
   max-width: 1400px;
 }
@@ -530,7 +530,7 @@ body {
 
 .top-nav .top-nav__link {
     margin-right: 25px;
-    color: #fff;
+    color: #ffffff;
     font-family: 'ProximaNovaSemiBold', sans-serif;
     padding: 47px 0;
   }
@@ -559,6 +559,9 @@ body {
 .cart .svg-wrap {
     fill: #ffffff;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
 
 .cart .svg-wrap:hover {
@@ -569,7 +572,14 @@ body {
 
 .cart .price-wrap {
     margin-left: 10px;
+    cursor: default;
   }
+
+.cart .price-wrap:hover {
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+    }
 
 .cart .cart-wrap {
     margin-left: 30px;
@@ -599,24 +609,15 @@ body {
             transform: scale(0.85);
   }
 
-/* .owl-theme .owl-dots .owl-dot {
-    display: inline-block;
-    zoom: 1;
-    display: none;
-} */
+/*slider*/
 
-.slider {
+.slider1 {
   cursor: pointer;
   width: 100%;
  
 }
 
-.slider .owl-dots {
-    margin-top: 10px;
-    display: none;
-  }
-
-.slider .slider__item {
+.slider1 .slider__item {
     height: 650px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -633,12 +634,12 @@ body {
             align-items: center;
   }
 
-.slider .slider__item--content {
+.slider1 .slider__item--content {
     display: block;
     text-align: right;
   }
 
-.slider .slider__title {
+.slider1 .slider__title {
     text-transform: uppercase;
     font-size: 80px;
     color: #000000;
@@ -662,6 +663,118 @@ body {
 .slider__item--2 .slider__title {
     color: #ffffff;
   }
+
+/* main content */
+
+.main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 160px 0 215px 0;
+  text-transform: uppercase;  
+}
+
+.main .product__title {
+    font-size: 48px;
+    font-family: 'ProximaNovaExtraBold';
+    margin-bottom: 35px;
+  }
+
+.main .product__subtitle {
+    font-size: 14px;
+    font-family: 'ProximaNovaRegular';
+    margin-bottom: 30px;
+  }
+
+.main .caption {
+    margin-top: 60px;
+    font-size: 24px;
+  }
+
+.main .slider-snowboards {
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 115vw;
+  }
+
+.main .slider-snowboards .owl-item img {
+      width: auto;
+    }
+
+.main .slider-snowboards__item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 405px;
+    cursor: pointer;
+  }
+
+.main .owl-item.active {
+    opacity: 0.5;
+  }
+
+.main .owl-item.active.center {
+    opacity: 1;
+  }
+
+.slider-snowboards.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-next, .slider-snowboards.owl-carousel .owl-nav .owl-prev {
+   width: 122px;
+   height: 227px;
+   display: block;
+   background-repeat: no-repeat;
+   background-position: center;
+   -webkit-background-size: contain;
+           background-size: contain;
+   position: absolute;
+   top: 20%;
+   outline: none;
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-next {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/svg/next.svg);
+  right: 230px;
+   
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-prev {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/svg/prev.svg);
+  left: 230px;
+}
 
 /* Large Devices, Wide Screens */
 
