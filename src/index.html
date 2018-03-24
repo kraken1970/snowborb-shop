@@ -49,26 +49,26 @@
 
   <div class="slider-box" id="slider-box">
   
-    <div class="slider1 slide-container owl-carousel owl-theme">
-
-      <div class="slider__item slider__item--1 item">
-      <div class="slider__item--content">
-        <h2 class="slider__title">Run Over <br> Everything</h2>
-        <a href="#" class="slider-btn">See Details</a>
-      </div>
-      </div>
-
-      <div class="slider__item slider__item--2 item">
-      <div class="slider__item--content">
-        <h2 class="slider__title">Run Over <br> Everything</h2>
-        <a href="#" class="slider-btn">See Details</a>
-      </div>
-      </div>
-    
-    </div>
-
-  </div>
+    <div class="slider1 slide-container">
   
+      <div class="slider__item slider__item--1">
+        <div class="slider__item--content">
+          <h2 class="slider__title">Run Over <br> Everything</h2>
+          <a href="#" class="slider-btn">See Details</a>
+        </div>
+      </div>
+  
+      <div class="slider__item slider__item--2">
+        <div class="slider__item--content">
+          <h2 class="slider__title">Run Over <br> Everything</h2>
+          <a href="#" class="slider-btn">See Details</a>
+        </div>
+      </div>
+      
+    </div>
+  
+  </div>
+
   <section class="main products">
 
     <h2 class="product__title">snowboards</h2>
@@ -106,6 +106,7 @@
         <img src="../assets/images/products/board5.png" alt="snowboard">
       </div>
     </div>
+
     <p class="caption">
       Snowboard extreme Series
     </p>
@@ -113,8 +114,7 @@
 
   <section class="mountain">
     <h2 class="mountain-title">
-      The Mountains
-Snowboarding ®
+      The Mountains Snowboarding ®
     </h2>
     <p class="mountain-text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt auctor facilisis. Nam massa dui, imperdiet et mi ut, sagittis viverra odio. Duis et lectus eu enim gravida vulputate nec eget nisi. Nunc ultrices velit blandit, dapibus lacus in, feugiat erat. Donec non porttitor augue, sit amet lacinia purus. Nulla fringilla quam est, luctus dapibus odio suscipit ut. Vivamus et lectus a nunc fringilla volutpat. Morbi sed congue sem.
@@ -207,12 +207,27 @@ Snowboarding ®
       <div class="copyrite">
         <p>© 2014 Mountains Snowboards</p>
       </div>
-      <div class="select-reg">
-        <div class="flag">
-          <img src="../assets/images/svg/us.svg" alt="">
-        </div>
-        <a href="#" class="select-reg--text">Change Region</a>
-      </div>
+      <form class="select-reg">
+        <img name="pic" src="../assets/images/svg/us.svg" alt=""> <br>
+        <select name="imagename" id="flagsall" class="flags" size="1" onChange="changeImage(this.form)">
+          <option value="../assets/images/svg/us.svg" class="flag" selected>
+            flag1
+          </option>
+          <option value="../assets/images/svg/ad.svg" class="flag">
+            flag2
+          </option>
+          <option value="../assets/images/svg/ae.svg" class="flag">
+            flag3
+          </option>
+          <option value="../assets/images/svg/af.svg" class="flag">
+            flag4
+          </option>
+          <option value="../assets/images/svg/ag.svg" class="flag">
+            flag5
+          </option>
+        </select>
+        <label for="flagsall"><span>Cha</span>ngeRegion</label>
+      </form>
     </div>
   </footer>
     
