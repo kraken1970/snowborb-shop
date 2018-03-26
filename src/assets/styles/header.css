@@ -211,6 +211,31 @@ body {
   }  
 }
 
+/* .slider-box2 {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  top: 165px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+button.controls {
+  font-size: 80px;
+  color: gold;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.controls-pause {
+  margin: 0 35vw;
+} */
+
 .slider-snowboards.owl-carousel .owl-nav.disabled {
   display: block;
 }

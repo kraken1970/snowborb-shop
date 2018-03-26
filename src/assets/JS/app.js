@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 /* первый слайдер */ 
-window.addEventListener("DOMContentLoaded", init);
+// window.addEventListener("DOMContentLoaded", init);
 
 let imagesCount;
 let position = 0;
@@ -44,9 +44,11 @@ function init() {
   setTimeout(slide, 5000);
 }
 
+init();
+
+
+
 // обработка select:
 function changeImage(form) {
   form.pic.src = form.imagename.value;
 }
-
-  

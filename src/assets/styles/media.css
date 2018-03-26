@@ -11,47 +11,71 @@
 	
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.top-nav {
+		margin-right: 30px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.main-header {
-		padding: 0 35px;
-	}
+	header.main-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		}
+		.cart {
+			margin-left: 0;
+			margin-bottom: 20px;
+		}
+		.top-nav {
+			margin-left: 0;
+				height: 50px;
+			}
+			.top-nav .top-nav__link {
+				margin-right: 5px;
+			}
 	.main-footer__content {
-    width: 725px;
+    width: 565px;
+	}
+	.main-footer__conten.top__content {
+		flex-wrap: wrap;
+		 
+	}
+	.main-footer__conten.top__content .top__contentwr {
+		width: 25vw;
 	}
 	.main-footer {
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
+	.features .post {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		.post__item {
+			width: 25vw;
+		}
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-header.main-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-	}
-	.cart {
-		margin-left: 0;
-		margin-bottom: 20px;
-	}
-	.top-nav {
-    margin-left: 0;
-		height: 50px;
-	}
+
 	.main-footer .main-footer__content {
     flex-direction: column;
 		margin-left: 100px;
 	}
 	.select-reg {
 		margin-top: 20px;
-	}	
+	}
+	
+	.main .product__title {
+		font-size: 38px;
+	}
+	.slider1 .slider__title {
+		font-size: 38px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -60,16 +84,12 @@ header.main-header {
     margin-right: 7px;
     font-size: 10px;
 	}
-	.slider1 .slider__title {
-		font-size: 38px;
-	}
+	
 	.main.products {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	.main .product__title {
-		font-size: 38px;
-	}
+	
 	.main .product__control {
     margin-bottom: 0;
 	}
@@ -77,31 +97,31 @@ header.main-header {
 		height: 305px;
 	}
 	.slider-snowboards.owl-carousel .owl-nav .owl-next, .slider-snowboards.owl-carousel .owl-nav .owl-prev {
-    height: 45px;
-    top: 60%;
+    	height: 45px;
+    	top: 60%;
 	}
 	.main .caption {
-    margin-top: 20px;
-    font-size: 20px;
+    	margin-top: 20px;
+    	font-size: 20px;
 	}
 	.mountain {
 		padding-top: 50px;
 		padding-bottom: 50px;
 		.mountain-title {
-			font-size: 28px;
-		}
+		font-size: 28px;
+	}
 	}
 	.features {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 	.features .post {
-    flex-direction: column;
-    margin-top: 30px;
+    	flex-direction: column;
+    	margin-top: 30px;
 	}
 	.features .post .post__item {
-    width: 50vw;
-    margin-bottom: 25px;
+   		width: 50vw;
+    	margin-bottom: 25px;
 	}
 	.main-footer .main-footer__content {
 		margin-left: 40px;
