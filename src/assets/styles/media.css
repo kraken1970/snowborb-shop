@@ -5,7 +5,7 @@
 		padding-right: 8vw;
 	}
 	.main-footer__content {
-    width: 860px;
+    width: 750px;
 }
 }
 	
@@ -39,12 +39,12 @@
 	.main-footer__content {
     width: 565px;
 	}
-	.main-footer__conten.top__content {
+	.main-footer__content.top__content {
 		flex-wrap: wrap;
 		 
 	}
-	.main-footer__conten.top__content .top__contentwr {
-		width: 25vw;
+	.main-footer__content.top__content .top__contentwr {
+		width: 45vw;
 	}
 	.main-footer {
 		padding-left: 2vw;
@@ -54,8 +54,12 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		.post__item {
-			width: 25vw;
+			width: 32vw;
+			margin-bottom: 30px;
 		}
+	}
+	.features .post .post__item:last-child {
+    margin-right: 30px;
 	}
 }
 
@@ -75,6 +79,9 @@
 	}
 	.slider1 .slider__title {
 		font-size: 38px;
+	}
+	.mountain .mountain-title {
+		font-size: 34px;
 	}
 }
 
@@ -125,7 +132,8 @@
 	}
 	.main-footer .main-footer__content {
 		margin-left: 40px;
-	}	
+	}
+		
 }
 	/**/
 

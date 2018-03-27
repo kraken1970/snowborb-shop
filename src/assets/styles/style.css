@@ -1043,7 +1043,7 @@ button.controls {
 		padding-right: 8vw;
 	}
 	.main-footer__content {
-    width: 860px;
+    width: 750px;
 }
 }
 
@@ -1093,14 +1093,14 @@ button.controls {
 	.main-footer__content {
     width: 565px;
 	}
-	.main-footer__conten.top__content {
+	.main-footer__content.top__content {
 		-webkit-flex-wrap: wrap;
 		    -ms-flex-wrap: wrap;
 		        flex-wrap: wrap;
 		 
 	}
-	.main-footer__conten.top__content .top__contentwr {
-		width: 25vw;
+	.main-footer__content.top__content .top__contentwr {
+		width: 45vw;
 	}
 	.main-footer {
 		padding-left: 2vw;
@@ -1115,8 +1115,12 @@ button.controls {
 		        justify-content: space-around;
 	}
 		.features .post .post__item {
-			width: 25vw;
+			width: 32vw;
+			margin-bottom: 30px;
 		}
+	.features .post .post__item:last-child {
+    margin-right: 30px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1140,6 +1144,9 @@ button.controls {
 	}
 	.slider1 .slider__title {
 		font-size: 38px;
+	}
+	.mountain .mountain-title {
+		font-size: 34px;
 	}
 }
 
@@ -1195,7 +1202,8 @@ button.controls {
 	}
 	.main-footer .main-footer__content {
 		margin-left: 40px;
-	}	
+	}
+		
 }
 
 /**/
