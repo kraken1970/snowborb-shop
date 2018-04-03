@@ -1035,6 +1035,10 @@ button.controls {
     cursor: pointer;
   }
 
+.test-svg {
+  background-color: Navy;
+}
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width : 1200px) {
