@@ -377,23 +377,26 @@ button.controls {
 .select-reg {
   display: flex;
   justify-content: space-between;
-      align-items: baseline;
+  align-items: baseline;
+  position: relative;
   img , svg {
     width: 16px;
     height: 12px;
     outline: 1px solid #fff;
+    margin-right: 10px;
   }
   .flags {
-    width: 5px;
+    width: 80%;
     padding: 0;
     margin: 0;
     border: none;
-    height: 10px;
+    height: 15px;
     outline: none;
     background-color: transparent;
-    position: relative;
-    right: -18px;
+    position: absolute;
+    right: -20px;
     cursor: pointer;
+    color: transparent;
   }
   .flag {
     
@@ -409,9 +412,9 @@ button.controls {
     height: 15px;
     margin-left: 10px;
   }
-  &:hover span {
+  &:hover {
     color: #ff802a;
-    transform: scale(0.85);
+    transform: scale(1.05);
     cursor: pointer;
   }
 }

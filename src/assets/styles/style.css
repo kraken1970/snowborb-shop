@@ -986,29 +986,32 @@ button.controls {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      -webkit-box-align: baseline;
-      -webkit-align-items: baseline;
-          -ms-flex-align: baseline;
-              align-items: baseline;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: relative;
 }
 
 .select-reg img, .select-reg svg {
     width: 16px;
     height: 12px;
     outline: 1px solid #fff;
+    margin-right: 10px;
   }
 
 .select-reg .flags {
-    width: 5px;
+    width: 80%;
     padding: 0;
     margin: 0;
     border: none;
-    height: 10px;
+    height: 15px;
     outline: none;
     background-color: transparent;
-    position: relative;
-    right: -18px;
+    position: absolute;
+    right: -20px;
     cursor: pointer;
+    color: transparent;
   }
 
 .select-reg .flag {
@@ -1027,11 +1030,11 @@ button.controls {
     margin-left: 10px;
   }
 
-.select-reg:hover span {
+.select-reg:hover {
     color: #ff802a;
-    -webkit-transform: scale(0.85);
-        -ms-transform: scale(0.85);
-            transform: scale(0.85);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
     cursor: pointer;
   }
 
@@ -1184,9 +1187,10 @@ button.controls {
 	.mountain {
 		padding-top: 50px;
 		padding-bottom: 50px;
+		padding-right: 15px;
 	}
 		.mountain .mountain-title {
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.features {
 		padding-top: 50px;

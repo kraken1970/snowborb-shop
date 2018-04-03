@@ -8,12 +8,11 @@ $(document).ready(function(){
     loop: true,
     nav: true,
     navText: [ '', '' ],
-    center: true,
+    center: true
   });
 });
 
 /* первый слайдер */ 
-// window.addEventListener("DOMContentLoaded", init);
 
 let imagesCount;
 let position = 0;
@@ -45,8 +44,6 @@ function init() {
 }
 
 init();
-
-
 
 // обработка select:
 function changeImage(form) {
